@@ -1,0 +1,77 @@
+*{
+  font-family: verdana;
+  color: #4D6D9A;
+}
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 300px auto;
+  gap: 20px;
+}
+
+.homeButton{
+  position: absolute;
+  right: 10px;
+  border: 2px solid #4D6D9A;
+  background-color :white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.homeButton:hover{
+  opacity: 50%;
+}
+
+.playButton{
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  height: 60px; 
+  width: 120px; 
+  border: 2px solid #4D6D9A; 
+  background-color: #99CED3; 
+  font-size: 18px; 
+  border-radius: 10px; 
+  cursor: pointer;
+}
+
+.playButton:hover{
+  background-color: #EDB5BF;
+}
+
+.centeredText{
+  text-align: center;
+}
+
+table{
+  border: 2px solid #EDB5BF;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th{
+  background-color: #99CED3;
+  border: 2px solid #4D6D9A;
+  padding: 10px;
+}
+
+td{
+  border: 2px solid #EDB5BF;
+  padding: 10px;
+}
+
+.avatarsCanvas{
+  border-radius: 50%;
+  background-color: #EDB5BF;
+  width: 40px;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-right: 10px;
+}

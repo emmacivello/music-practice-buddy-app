@@ -1,0 +1,90 @@
+*{
+  font-family: verdana;
+  color: #4D6D9A;
+}
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.backButton{
+  position: absolute;
+  right: 10px;
+  border: 2px solid #4D6D9A;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.backButton:hover{
+  opacity: 50%;
+}
+
+.textBox{
+  border: 2px solid #86B3D1;
+  border-radius: 10px;
+  height: 25px;
+  width: 200px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  width: 550px;
+  gap: 5px;
+}
+
+.submitButton{
+  border: 2px solid #4D6D9A;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.submitButton:hover{
+  opacity: 50%;
+}
+
+/* scroll box css class: https://www.quackit.com/html/codes/html_scroll_box.cfm  */
+.scrollBox{
+  height: 200px;
+  width: 400px;
+  border: 4px inset #86B3D1;
+  border-radius: 10px;
+  font: 16px;
+  overflow: auto;
+}
+
+/* how to make it so that radio button text doesn't wrap (float left): https://stackoverflow.com/questions/23472949/prevent-wrapping-of-text-below-radio-buttons */
+.qButton{
+  margin-left: 18px;
+  float: left;
+}
+
+.qButton:hover{
+  cursor: pointer;
+}
+
+.qLabel{
+  display: block;
+  margin-left: 36px;
+}
+
+.qLabel:hover{
+  cursor: pointer;
+}
+
+/* change background of label of selected radio button: https://www.w3docs.com/snippets/css/how-to-style-the-selected-label-of-a-radio-button.html */
+.qButton:checked+label {
+  color: #EDB5BF;
+}
+
+.hrBlue{
+  border: 1px solid #86B3D1;
+  width: 380px;
+}
+
+.hrDotted{
+  border: 2px dotted #EDB5BF;
+}

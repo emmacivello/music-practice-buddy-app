@@ -1,0 +1,89 @@
+*{
+  font-family: verdana;
+  color: #4D6D9A;
+}
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.homeButton{
+  position:absolute; 
+  right:10px; 
+  border:2px solid #4D6D9A; 
+  background-color:white; 
+  cursor:pointer; 
+  border-radius:10px;
+}
+
+.homeButton:hover{
+  opacity: 50%;
+}
+
+.centeredText{
+  text-align: center;
+}
+
+.e{left:40}
+.r{left:100}
+.y{left:220}
+.u{left:280}
+.i{left:340}
+.s{left:0}
+.d{left:60}
+.f{left:120}
+.g{left:180}
+.h{left:240}
+.j{left:300}
+.k{left:360}
+.l{left:420}
+
+.wKey{
+  z-index: -1;
+  background-color: lemonchiffon;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  border: 2px solid black;
+}
+
+.bKey{
+  background-color: lightgray;
+  width: 100%;
+  height: 130px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  border: 2px solid black;
+}
+
+.whiteKeysGrid{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  gap: 5px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -134px;
+}
+
+.blackKeysGrid{
+  display: grid;
+  grid-template-columns: 40px 40px 25px 40px 90px 40px 22px 40px 22px 40px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.activeKey{
+  background-color: #B3CF99;
+}

@@ -1,0 +1,78 @@
+*{
+  font-family: verdana;
+  color: #4D6D9A;
+}
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.homeButton{
+  position: absolute;
+  right: 10px;
+  border: 2px solid #4D6D9A;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.homeButton:hover{
+  opacity: 50%;
+}
+
+#newPass{
+  border: 2px solid #86B3D1;
+  border-radius: 10px;
+  height: 30px;
+}
+
+.confirmChangeButton{
+  border: 2px solid #86B3D1;
+  background-color: white;
+  color: #4D6D9A;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.confirmChangeButton:disabled{
+  cursor: auto;
+  opacity: 50%;
+}
+
+.confirmChangeButton:enabled:hover{
+  opacity: 50%;
+}
+
+.avatarsCanvas{
+  border-radius: 50%;
+  background-color: #EDB5BF;
+  width: 100%;
+  cursor: pointer;
+}
+
+.grid-container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 600px;
+  display:grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 20px;
+}
+
+.smallText{
+  font-size: 12px;
+}
+
+.chosenBorder{
+  border: 5px solid #86B3D1;
+}
+
+.invisibleFeature{
+  visibility:hidden;
+}
+
+hr{
+  border: 2px dotted #EDB5BF;
+}

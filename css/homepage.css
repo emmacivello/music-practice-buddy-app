@@ -1,0 +1,73 @@
+*{
+  font-family: verdana;
+  color: #4D6D9A;
+}
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.settingsButton{
+  position: absolute;
+  right: 80px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.settingsButton:hover{
+  opacity: 50%;
+}
+
+.grid-container4{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 60%;
+  min-width: 500px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homepageButton{
+  width: 160px;
+  height: 140px;
+  border: 8px solid #99CED3;
+  border-radius: 10px;
+  color: #99CED3;
+  background-color: #4D6D9A;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.homepageButton:hover{
+  border: 12px solid #EDB5BF;
+  color: #EDB5BF;
+}
+
+.centeredForm{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logOutButton{
+  position: absolute;
+  right: 10px;
+  border: 2px solid #4D6D9A;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.logOutButton:hover{
+  opacity: 50%;
+}
+
+.centeredText{
+  text-align: center;
+}
+
+.smallText{
+  font-size: 12px;
+}
