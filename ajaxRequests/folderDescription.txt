@@ -1,0 +1,3 @@
+The files in this folder are called by xhttp requests in javascript functions from other files.
+These files are different from the php files in the "php" folder which only have functions (no function calls).
+They are also different from the php files in the "html" folder which are displayed to the user in the browser.
